@@ -1,0 +1,7 @@
+# robots.txt for lunation.io
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lunation.io/sitemap.xml
