@@ -49,13 +49,19 @@
             margin-bottom: 1.5rem;
         }
         .privacy-container ul {
-            margin-left: 2rem;
-            list-style-type: disc;
-            padding-left: 1rem;
+            margin-left: 2rem !important;
+            list-style-type: disc !important;
+            list-style-position: outside !important;
+            padding-left: 2rem !important;
         }
         .privacy-container li {
             margin-bottom: 0.8rem;
-            display: list-item;
+            display: list-item !important;
+            list-style: disc !important;
+        }
+        .privacy-container li::marker {
+            color: #fff !important;
+            display: inline-block !important;
         }
         .privacy-container a {
             color: #fff;
