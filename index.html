@@ -95,6 +95,30 @@
                 background-color: #f0f0f0;
                 color: #000000;
             }
+            footer a {
+                transition: all 0.3s ease;
+            }
+            footer a:hover {
+                text-shadow: 0 0 8px rgba(255, 255, 255, 1),
+                             0 0 16px rgba(255, 255, 255, 1),
+                             0 0 24px rgba(255, 255, 255, 0.9),
+                             0 0 40px rgba(255, 255, 255, 0.7),
+                             0 0 60px rgba(255, 255, 255, 0.5);
+            }
+            nav a {
+                transition: all 0.3s ease;
+            }
+            nav a:hover {
+                text-shadow: 0 0 8px rgba(255, 255, 255, 1),
+                             0 0 16px rgba(255, 255, 255, 1),
+                             0 0 24px rgba(255, 255, 255, 0.9),
+                             0 0 40px rgba(255, 255, 255, 0.7),
+                             0 0 60px rgba(255, 255, 255, 0.5);
+            }
+            nav {
+                background-color: transparent !important;
+                box-shadow: none !important;
+            }
         </style>
     </head>
     <body class="rellax-on">
@@ -103,7 +127,7 @@
             <nav>
                 <div class="nav-wrapper">
                     <div class="container">
-                        <a class="brand-logo" href="#/"><img src="lunation_white_on_black.png" alt="lunation"></a>
+                        <a class="brand-logo ajax-link" href="#"><img src="lunation_white_on_black.png" alt="lunation"></a>
                         <!-- A desktop version navigation-->
                         <!--ul.right.hide-on-med-and-down-->
                         <ul class="hide-on-med-and-down table-of-contents right">
