@@ -8,6 +8,17 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!-- Meta description, aim for about 150 characters-->
         <meta name="description" content="Lunation builds digital infrastructure for arts, culture and mission-driven organizations. Technology for the stories that matter.">
+        <!-- Open Graph / Social Media -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://lunation.io/">
+        <meta property="og:title" content="Lunation - Technology for the stories that matter">
+        <meta property="og:description" content="Lunation builds digital infrastructure for arts, culture and mission-driven organizations. Bridging the gap between creative vision and technical execution.">
+        <meta property="og:image" content="https://lunation.io/lunation_white_on_black.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://lunation.io/">
+        <meta name="twitter:title" content="Lunation - Technology for the stories that matter">
+        <meta name="twitter:description" content="Lunation builds digital infrastructure for arts, culture and mission-driven organizations.">
+        <meta name="twitter:image" content="https://lunation.io/lunation_white_on_black.png">
         <!-- Stylesheets-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700">
         <link rel="stylesheet" href="./libs/materialize/css/materialize.min.css">
@@ -21,6 +32,26 @@
         <meta name="theme-color" content="#ffffff">
         <!-- Site title-->
         <title>lunation</title>
+        <!-- Schema.org markup for Google -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Lunation BV",
+            "description": "Digital infrastructure for arts, culture and mission-driven organizations",
+            "url": "https://lunation.io",
+            "telephone": "",
+            "email": "hello@lunation.io",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Da Costakade 120-3",
+                "addressLocality": "Amsterdam",
+                "postalCode": "1053 XB",
+                "addressCountry": "NL"
+            },
+            "sameAs": []
+        }
+        </script>
         <style>
             body.rellax-on {
                 background: #000000;
@@ -54,6 +85,15 @@
             }
             .contact {
                 padding: 5rem 0;
+            }
+            .btn-custom {
+                background-color: #ffffff;
+                color: #000000;
+            }
+            .btn-custom:hover,
+            .btn-custom:focus {
+                background-color: #f0f0f0;
+                color: #000000;
             }
         </style>
     </head>
@@ -99,6 +139,11 @@
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l8 offset-l2 center">
                         <p class="flow-text">Lunation builds digital infrastructure for arts, culture and mission-driven organizations. Bridging the gap between creative vision and technical execution.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center">
+                        <a href="#contact" class="btn btn-large waves-effect waves-light btn-custom">Start a conversation</a>
                     </div>
                 </div>
             </div>
@@ -204,13 +249,17 @@
                     <div class="col s12 l4 margin-on-medium-and-down">
                         <address>Da Costakade 120-3
                             <br>Amsterdam, 1053 XB</address>
-                        <p>Lunation BV is registered in the Netherlands with KvK number 67326749</p>
                         <a href="https://www.google.com/maps/dir//Da+Costakade+120HS,+1053+XB+Amsterdam,+Netherlands/@52.3778369,4.883233,4871m/data=!3m2!1e3!4b1!4m8!4m7!1m0!1m5!1m1!1s0x47c609de365b3961:0x22e64b596b82caa4!2m2!1d4.872228!2d52.3688247?entry=ttu&g_ep=EgoyMDI2MDIwMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Lunation office in Amsterdam (opens in new window)">Get directions <span aria-hidden="true">&nearr;</span></a>
                     </div>
-                    <div class="col s12 l4 margin-on-medium-and-down">
+                    <div class="col s12 l4 margin-on-medium-and-down center">
                         <a href="mailto:hello@lunation.io">hello@lunation.io</a>
                     </div>
-                    <div class="col s12 l4">&copy; 2026 Lunation</div>
+                    <div class="col s12 l4 right-align">&copy; 2026 Lunation</div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center">
+                        <p>Lunation BV is registered in the Netherlands with KvK number 67326749 | <a href="/privacy.html">Privacy Policy</a></p>
+                    </div>
                 </div>
             </div>
         </footer>
